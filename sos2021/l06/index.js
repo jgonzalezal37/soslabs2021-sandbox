@@ -28,5 +28,5 @@ app.post(BASE_API_PATH+"/contacts", (req, res) =>{
 });
 
 app.listen(PORT, ()=>{
-    console.log('Server ready at ${PORT}!');
+    console.log("Server ready at port "+ PORT);
 });
